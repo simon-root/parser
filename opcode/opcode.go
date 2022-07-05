@@ -16,7 +16,7 @@ package opcode
 import (
 	"io"
 
-	"github.com/pingcap/parser/format"
+	"github.com/simon-root/parser/format"
 )
 
 // Op is opcode type.

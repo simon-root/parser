@@ -19,8 +19,8 @@ import (
 	"strings"
 
 	"github.com/cznic/mathutil"
-	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/parser/terror"
+	"github.com/simon-root/parser/mysql"
+	"github.com/simon-root/parser/terror"
 	"golang.org/x/text/encoding"
 	"golang.org/x/text/transform"
 )

@@ -21,10 +21,10 @@ import (
 	"strings"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/parser/auth"
-	"github.com/pingcap/parser/format"
-	"github.com/pingcap/parser/model"
-	"github.com/pingcap/parser/mysql"
+	"github.com/simon-root/parser/auth"
+	"github.com/simon-root/parser/format"
+	"github.com/simon-root/parser/model"
+	"github.com/simon-root/parser/mysql"
 )
 
 var (

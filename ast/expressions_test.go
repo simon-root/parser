@@ -15,9 +15,9 @@ package ast_test
 
 import (
 	. "github.com/pingcap/check"
-	. "github.com/pingcap/parser/ast"
-	"github.com/pingcap/parser/format"
-	"github.com/pingcap/parser/mysql"
+	. "github.com/simon-root/parser/ast"
+	"github.com/simon-root/parser/format"
+	"github.com/simon-root/parser/mysql"
 )
 
 var _ = Suite(&testExpressionsSuite{})

@@ -15,7 +15,7 @@ package charset_test
 
 import (
 	. "github.com/pingcap/check"
-	"github.com/pingcap/parser/charset"
+	"github.com/simon-root/parser/charset"
 	"golang.org/x/text/transform"
 )
 

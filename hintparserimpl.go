@@ -18,9 +18,9 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/pingcap/parser/ast"
-	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/parser/terror"
+	"github.com/simon-root/parser/ast"
+	"github.com/simon-root/parser/mysql"
+	"github.com/simon-root/parser/terror"
 )
 
 var (
