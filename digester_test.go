@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	. "github.com/pingcap/check"
-	"github.com/pingcap/parser"
+	"github.com/simon-root/parser/v5"
 )
 
 var _ = Suite(&testSQLDigestSuite{})

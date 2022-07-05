@@ -18,8 +18,8 @@ import (
 	"math"
 	"strconv"
 
-	"github.com/pingcap/parser/ast"
-	"github.com/pingcap/parser/model"
+	"github.com/simon-root/parser/v5/ast"
+	"github.com/simon-root/parser/v5/model"
 )
 
 %}

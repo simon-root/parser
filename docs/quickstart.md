@@ -102,16 +102,16 @@ If the parser runs properly, you should get a result like this:
 >   You can use [`github.com/simon-root/parser/v5/test_driver`](https://pkg.go.dev/github.com/simon-root/parser/v5/test_driver) as the `parser_driver` for test. Again, if you need advanced features, please use the `parser_driver` in TiDB (run `go get -v github.com/pingcap/tidb/types/parser_driver@328b6d0` and import it).
 > - The instantiated parser object is not goroutine safe. It is better to keep it in a single goroutine.
 > - The instantiated parser object is not lightweight. It is better to reuse it if possible.
-> - The 2nd and 3rd arguments of [`parser.Parse()`](https://pkg.go.dev/github.com/pingcap/parser?tab=doc#Parser.Parse) are charset and collation respectively. If you pass an empty string into it, a default value is chosen.
+> - The 2nd and 3rd arguments of [`parser.Parse()`](https://pkg.go.dev/github.com/simon-root/parser/v5?tab=doc#Parser.Parse) are charset and collation respectively. If you pass an empty string into it, a default value is chosen.
 
 
 ## Traverse AST Nodes
 
 Now you get the AST tree root of a SQL statement. It is time to extract the column names by traverse.
 
-Parser implements the interface [`ast.Node`](https://pkg.go.dev/github.com/pingcap/parser/ast?tab=doc#Node) for each kind of AST node, such as SelectStmt, TableName, ColumnName. [`ast.Node`](https://pkg.go.dev/github.com/pingcap/parser/ast?tab=doc#Node) provides a method `Accept(v Visitor) (node Node, ok bool)` to allow any struct that has implemented [`ast.Visitor`](https://pkg.go.dev/github.com/pingcap/parser/ast?tab=doc#Visitor) to traverse itself.
+Parser implements the interface [`ast.Node`](https://pkg.go.dev/github.com/simon-root/parser/v5/ast?tab=doc#Node) for each kind of AST node, such as SelectStmt, TableName, ColumnName. [`ast.Node`](https://pkg.go.dev/github.com/simon-root/parser/v5/ast?tab=doc#Node) provides a method `Accept(v Visitor) (node Node, ok bool)` to allow any struct that has implemented [`ast.Visitor`](https://pkg.go.dev/github.com/simon-root/parser/v5/ast?tab=doc#Visitor) to traverse itself.
 
-[`ast.Visitor`](https://pkg.go.dev/github.com/pingcap/parser/ast?tab=doc#Visitor) is defined as follows:
+[`ast.Visitor`](https://pkg.go.dev/github.com/simon-root/parser/v5/ast?tab=doc#Visitor) is defined as follows:
 ```go
 type Visitor interface {
 	Enter(n Node) (node Node, skipChildren bool)

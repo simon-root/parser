@@ -18,10 +18,10 @@ import (
 	"strings"
 
 	. "github.com/pingcap/check"
-	"github.com/pingcap/parser"
-	. "github.com/pingcap/parser/ast"
-	. "github.com/pingcap/parser/format"
-	"github.com/pingcap/parser/test_driver"
+	"github.com/simon-root/parser/v5"
+	. "github.com/simon-root/parser/v5/ast"
+	. "github.com/simon-root/parser/v5/format"
+	"github.com/simon-root/parser/v5/test_driver"
 )
 
 var _ = Suite(&testCacheableSuite{})
