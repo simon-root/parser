@@ -20,7 +20,7 @@ import (
 	"fmt"
 
 	"github.com/pingcap/errors"
-	"github.com/simon-root/parser/terror"
+	"github.com/simon-root/parser/v5/terror"
 )
 
 // CheckScrambledPassword check scrambled password received from client.

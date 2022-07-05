@@ -1,4 +1,4 @@
-module github.com/simon-root/parser
+module github.com/simon-root/parser/v5
 
 require (
 	github.com/cznic/golex v0.0.0-20181122101858-9c343928389c // indirect

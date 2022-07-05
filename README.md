@@ -1,6 +1,6 @@
 # Parser - A MySQL Compatible SQL Parser
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/simon-root/parser)](https://goreportcard.com/report/github.com/pingcap/parser)
+[![Go Report Card](https://goreportcard.com/badge/github.com/simon-root/parser/v5)](https://goreportcard.com/report/github.com/pingcap/parser)
 [![CircleCI Status](https://circleci.com/gh/pingcap/parser.svg?style=shield)](https://circleci.com/gh/pingcap/parser)
 [![GoDoc](https://godoc.org/github.com/pingcap/parser?status.svg)](https://godoc.org/github.com/pingcap/parser)
 [![codecov](https://codecov.io/gh/pingcap/parser/branch/master/graph/badge.svg)](https://codecov.io/gh/pingcap/parser)

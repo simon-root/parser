@@ -16,7 +16,7 @@ package auth
 import (
 	"fmt"
 
-	"github.com/simon-root/parser/format"
+	"github.com/simon-root/parser/v5/format"
 )
 
 // UserIdentity represents username and hostname.

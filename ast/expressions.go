@@ -21,9 +21,9 @@ import (
 	"strings"
 
 	"github.com/pingcap/errors"
-	"github.com/simon-root/parser/format"
-	"github.com/simon-root/parser/model"
-	"github.com/simon-root/parser/opcode"
+	"github.com/simon-root/parser/v5/format"
+	"github.com/simon-root/parser/v5/model"
+	"github.com/simon-root/parser/v5/opcode"
 )
 
 var (

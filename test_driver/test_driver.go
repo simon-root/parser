@@ -20,10 +20,10 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/simon-root/parser/ast"
-	"github.com/simon-root/parser/charset"
-	"github.com/simon-root/parser/format"
-	"github.com/simon-root/parser/mysql"
+	"github.com/simon-root/parser/v5/ast"
+	"github.com/simon-root/parser/v5/charset"
+	"github.com/simon-root/parser/v5/format"
+	"github.com/simon-root/parser/v5/mysql"
 )
 
 func init() {

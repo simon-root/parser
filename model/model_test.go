@@ -20,8 +20,8 @@ import (
 	"time"
 
 	. "github.com/pingcap/check"
-	"github.com/simon-root/parser/mysql"
-	"github.com/simon-root/parser/types"
+	"github.com/simon-root/parser/v5/mysql"
+	"github.com/simon-root/parser/v5/types"
 	"github.com/stretchr/testify/assert"
 )
 

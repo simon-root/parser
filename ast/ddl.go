@@ -15,13 +15,13 @@ package ast
 
 import (
 	"github.com/pingcap/errors"
-	"github.com/simon-root/parser/auth"
-	"github.com/simon-root/parser/format"
-	"github.com/simon-root/parser/model"
-	"github.com/simon-root/parser/mysql"
-	"github.com/simon-root/parser/terror"
-	"github.com/simon-root/parser/tidb"
-	"github.com/simon-root/parser/types"
+	"github.com/simon-root/parser/v5/auth"
+	"github.com/simon-root/parser/v5/format"
+	"github.com/simon-root/parser/v5/model"
+	"github.com/simon-root/parser/v5/mysql"
+	"github.com/simon-root/parser/v5/terror"
+	"github.com/simon-root/parser/v5/tidb"
+	"github.com/simon-root/parser/v5/types"
 )
 
 var (

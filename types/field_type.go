@@ -18,9 +18,9 @@ import (
 	"io"
 	"strings"
 
-	"github.com/simon-root/parser/charset"
-	"github.com/simon-root/parser/format"
-	"github.com/simon-root/parser/mysql"
+	"github.com/simon-root/parser/v5/charset"
+	"github.com/simon-root/parser/v5/format"
+	"github.com/simon-root/parser/v5/mysql"
 )
 
 // UnspecifiedLength is unspecified length.

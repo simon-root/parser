@@ -15,10 +15,10 @@ package ast_test
 
 import (
 	. "github.com/pingcap/check"
-	"github.com/simon-root/parser"
-	. "github.com/simon-root/parser/ast"
-	"github.com/simon-root/parser/mysql"
-	"github.com/simon-root/parser/test_driver"
+	"github.com/simon-root/parser/v5"
+	. "github.com/simon-root/parser/v5/ast"
+	"github.com/simon-root/parser/v5/mysql"
+	"github.com/simon-root/parser/v5/test_driver"
 )
 
 var _ = Suite(&testFunctionsSuite{})

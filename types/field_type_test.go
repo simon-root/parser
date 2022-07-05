@@ -18,14 +18,14 @@ import (
 	"testing"
 
 	. "github.com/pingcap/check"
-	"github.com/simon-root/parser"
-	"github.com/simon-root/parser/ast"
-	"github.com/simon-root/parser/charset"
-	"github.com/simon-root/parser/mysql"
-	. "github.com/simon-root/parser/types"
+	"github.com/simon-root/parser/v5"
+	"github.com/simon-root/parser/v5/ast"
+	"github.com/simon-root/parser/v5/charset"
+	"github.com/simon-root/parser/v5/mysql"
+	. "github.com/simon-root/parser/v5/types"
 
 	// import parser_driver
-	_ "github.com/simon-root/parser/test_driver"
+	_ "github.com/simon-root/parser/v5/test_driver"
 )
 
 func TestT(t *testing.T) {

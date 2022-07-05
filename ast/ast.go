@@ -18,9 +18,9 @@ package ast
 import (
 	"io"
 
-	"github.com/simon-root/parser/format"
-	"github.com/simon-root/parser/model"
-	"github.com/simon-root/parser/types"
+	"github.com/simon-root/parser/v5/format"
+	"github.com/simon-root/parser/v5/model"
+	"github.com/simon-root/parser/v5/types"
 )
 
 // Node is the basic element of the AST.

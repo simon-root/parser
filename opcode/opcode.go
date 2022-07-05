@@ -16,7 +16,7 @@ package opcode
 import (
 	"io"
 
-	"github.com/simon-root/parser/format"
+	"github.com/simon-root/parser/v5/format"
 )
 
 // Op is opcode type.

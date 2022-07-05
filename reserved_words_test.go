@@ -29,7 +29,7 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	. "github.com/pingcap/check"
 
-	"github.com/simon-root/parser/ast"
+	"github.com/simon-root/parser/v5/ast"
 )
 
 func (s *testConsistentSuite) TestCompareReservedWordsWithMySQL(c *C) {

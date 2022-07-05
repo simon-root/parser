@@ -14,7 +14,7 @@
 package ast
 
 import (
-	"github.com/simon-root/parser/types"
+	"github.com/simon-root/parser/v5/types"
 )
 
 // node is the struct implements Node interface except for Accept method.

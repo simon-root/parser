@@ -20,8 +20,8 @@ package types
 import (
 	"strings"
 
-	"github.com/simon-root/parser/mysql"
-	"github.com/simon-root/parser/terror"
+	"github.com/simon-root/parser/v5/mysql"
+	"github.com/simon-root/parser/v5/terror"
 )
 
 // IsTypeBlob returns a boolean indicating whether the tp is a blob type.

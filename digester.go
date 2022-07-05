@@ -24,7 +24,7 @@ import (
 	"unicode"
 	"unsafe"
 
-	"github.com/simon-root/parser/charset"
+	"github.com/simon-root/parser/v5/charset"
 )
 
 type Digest struct {
